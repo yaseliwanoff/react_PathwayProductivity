@@ -8,14 +8,18 @@ import Image from "next/image";
 
 export const LogoTicker = () => {
   return (
-    <div className="container">
-      <div>
-        <Image src={AcmeLogo} alt="Acme"></Image>
-        <Image src={QuantumLogo} alt="Quantum"></Image>
-        <Image src={PulseLogo} alt="Pulse"></Image>
-        <Image src={EchoLogo} alt="Echo"></Image>
-        <Image src={ApexLogo} alt="Apex"></Image>
-        <Image src={CelestialLogo} alt="Celestial"></Image>
+    <div className="py-8 bg-white md:py-12 ">
+      <div className="container">
+        <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
+          <div className="flex gap-14 flex-none">
+            <Image draggable={false} src={AcmeLogo} alt="Acme" width={100} height={100} className="logo-ticker-image" />
+            <Image draggable={false} src={QuantumLogo} alt="Quantum" width={100} height={100} className="logo-ticker-image" />
+            <Image draggable={false} src={PulseLogo} alt="Pulse" width={100} height={100} className="logo-ticker-image" />
+            <Image draggable={false} src={EchoLogo} alt="Echo" width={100} height={100} className="logo-ticker-image" />
+            <Image draggable={false} src={ApexLogo} alt="Apex" width={100} height={100} className="logo-ticker-image" />
+            <Image draggable={false} src={CelestialLogo} alt="Celestial" width={100} height={100} className="logo-ticker-image" />
+          </div>
+        </div>
       </div>
     </div>
   );

@@ -17,7 +17,7 @@ export const Header = () => {
         <div>
           <div className="container py-5">
             <div className="flex justify-between items-center">
-              <Image src={Logo} alt="Company logo" width={40} height={40}></Image>
+              <Image draggable={false} src={Logo} alt="Company logo" width={40} height={40}></Image>
               <MenuIcon className="w-5 h-5 md:hidden"></MenuIcon>
               <nav className="hidden md:flex gap-6 text-black/60 items-center">
                 <a href="#">About</a>
