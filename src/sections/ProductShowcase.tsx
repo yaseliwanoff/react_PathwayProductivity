@@ -18,7 +18,7 @@ export const ProductShowcase = () => {
             Celebrate the joy of accomplishment with an app designed to track your progress and motivate your efforts.
           </p>
           <div className="relative flex justify-center mt-10">
-            <Image className="draggable-none" src={ProductImage} alt="product image" />
+            <Image draggable={false} className="w-full h-full" src={ProductImage} alt="product image" />
             <Image
               className="hidden md:block absolute -right-36 -top-32"
               width={262}

@@ -66,5 +66,13 @@ const testimonials = [
 ];
 
 export const Testimonials = () => {
-  return null;
+  return (
+    <section>
+      <div className="container">
+        <div>
+          
+        </div>
+      </div>
+    </section>
+  );
 };

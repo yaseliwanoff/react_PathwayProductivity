@@ -16,6 +16,14 @@
         @apply bg-black text-white;
     }
 
+    .btn-light {
+        @apply bg-white text-black px-4 py-2 rounded-lg font-medium inline-flex justify-center items-center tracking-tight;
+    }
+
+    .btn-primary-light {
+        @apply bg-white text-black;
+    }
+
     .btn-text {
         @apply text-black bg-transparent;
     }
